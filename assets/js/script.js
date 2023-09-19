@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let button of buttons) {
         button.addEventListener("click", function() {
             if(this.getAttribute("data-type") === "submit") {
-                alert("You clicked Submit!")
+                alert("You clicked Submit!");
             } else {
-                let gameType =this.getAttribute("data-type"):
+                let gameType =this.getAttribute("data-type");
                 alert(`You clicked ${gameType}`);
             }
-    })
-}
+        })
+    }
 })
 
 function runGame() {
